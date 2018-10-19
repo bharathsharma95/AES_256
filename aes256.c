@@ -45,13 +45,13 @@ const unsigned char rsbox[256] =
 
 // round constant
 
-//round constant for 128
+//round constant for AES-128
 //const unsigned char Rcon[10] = {0x01, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x80, 0x1b, 0x36};
 
-//round constant for 192
+//round constant for AES-192
 //const unsigned char Rcon[8] = {0x01, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40, 0x80};
 
-//round constant for 256
+//round constant for AES-256
 const unsigned char Rcon[7] = {0x01, 0x02, 0x04, 0x08, 0x10, 0x20, 0x40};
 
 // multiply by 2 in the galois field
